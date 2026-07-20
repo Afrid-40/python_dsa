@@ -93,3 +93,7 @@ print(s[::-1])
 print(s[1::])
 
 
+#create an example while loop which will not terminate, and print hi in each iteration
+#how will you stop the program manually?
+while True:
+    print("hi")
