@@ -92,8 +92,11 @@ print(s[1:-1])
 print(s[::-1])
 print(s[1::])
 
+print('-----------------------------------------------------------------------')
 
-#create an example while loop which will not terminate, and print hi in each iteration
-#how will you stop the program manually?
-while True:
-    print("hi")
+#take a number as input and find the sum of nnumbers from 1 to that number
+n = int(input("Enter a number:"))
+sum = 0
+for i in (1, n + 1):
+    sum += i
+print("The sum is:", sum)
