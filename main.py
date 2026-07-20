@@ -94,9 +94,17 @@ print(s[1::])
 
 print('-----------------------------------------------------------------------')
 
-#take a number as input and find the sum of nnumbers from 1 to that number
+#take a number as input and find the sum of numbers from 1 to that number
 n = int(input("Enter a number:"))
 sum = 0
 for i in (1, n + 1):
     sum += i
 print("The sum is:", sum)
+print('-----------------------------------------------------------------------')
+
+x= int(input())
+sum = 0
+for  i in range(1, x+1):
+    sum +=i
+print(sum)
+
