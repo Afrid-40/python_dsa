@@ -17,3 +17,12 @@ for i in range(5):
         print(i)
 else:
     print("done")
+
+
+try:
+    a = int(input("enter a number:"))
+    print(a)
+except ValueError as e:
+    print(e)    
+else: 
+    print("done")
