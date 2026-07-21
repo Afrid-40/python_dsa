@@ -188,8 +188,8 @@ If you found this repository useful, consider giving it a ⭐ on GitHub.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Practicer
 
-**Afrid**
+**Mohammed Shahed Afrid Khan**
 
 GitHub: https://github.com/Afrid-40
