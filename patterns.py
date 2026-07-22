@@ -80,3 +80,4 @@ for i in range(n):
         print(c, end=" ")
         c= c*(i-j)//(j+1)
     print()
+
