@@ -80,4 +80,21 @@ for i in range(n):
         print(c, end=" ")
         c= c*(i-j)//(j+1)
     print()
+print("----------------------------------------------------")
+#strong number
+n=int(input("Enter number: "))
+s=0
+t=n
+while t>0:
+    d=t%10
+    fact=1
+    for i in range(1,d+1):
+        fact*=i
+    s+=fact
+    t//=10
+if n==s:
+    print("Strong number")
+else:
+    print("Not a strong number")
 
+print("----------------------------------------------------")
